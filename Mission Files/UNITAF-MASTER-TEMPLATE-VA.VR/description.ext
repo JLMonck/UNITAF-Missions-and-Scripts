@@ -1,0 +1,89 @@
+/*/ DESCRIPTION.EXT
+
+Author:         (UTF) TEMPLAR
+Outline:        The Description.ext is used to set the overall mission attributes
+Documentation:  https://community.bistudio.com/wiki/Description.ext /*/
+
+
+// MISSION INFORMATION //
+
+author          = "United Task Force";
+onLoadName      = "MISSION NAME HERE";
+onLoadMission   = "";
+loadScreen      = "img\AO-CoverArt.jpg";
+class Header
+{
+    gameType    = Coop;
+    minPlayers  = 1;
+    maxPlayers  = 64;
+};
+
+
+//  MISSION SETTINGS //
+
+saving              = 0;
+aiKills             = 0;
+briefing            = 1;
+debriefing          = 0;
+disabledAI          = 1;
+joinUnassigned      = 0;
+
+// RESPAWN & REVIVE //
+/* Replaced by Ace HUD config
+respawn             = "BASE";
+//reviveMode        = 1;
+respawnButton       = 0;
+respawnDelay        = 30;
+respawnDialog       = 0;
+respawnOnStart      = 1;
+*/
+
+
+// USER INTERFACE //
+/* Replaced by Ace HUD config
+showHUD[] = {
+    true,   // Scripted HUD
+    true,   // Vehicle and unit info
+    true,   // Vehicle radar
+    true,   // Vehicle compass
+    false,  // Tank direction
+    false,  // Commanding menu
+    false,  // Group info bar
+    false,  // HUD weapon cursors
+    true    // Vehicle display panels
+};
+*/
+
+
+// CORPSE & WRECK MANAGEMENT //
+
+corpseManagerMode       = 3;
+corpseLimit             = 15;
+corpseRemovalMinTime    = 60;
+corpseRemovalMaxTime    = 1800;
+wreckManagerMode        = 1;
+wreckLimit              = 5;
+wreckRemovalMinTime     = 60;
+wreckRemovalMaxTime     = 3600;
+minPlayerDistance       = 50;
+
+// SERVER & ADMINISTRATION //
+/* Work In Progress
+cba_settings_whitelist[] = ["76561198090574933"};
+enableDebugConsole[] = {"76561198054271928"};
+*/
+
+
+// COMPONENT CONFIGS //
+
+class CfgFunctions {
+    #include "functions\functions.hpp"
+};
+
+class CfgRoles {
+	#include "scripts\UTF\Respawn\Roles.hpp"
+};
+
+class CfgRespawnInventory {
+    #include "scripts\UTF\Respawn\Loadout.hpp"
+};

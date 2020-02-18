@@ -1,0 +1,8 @@
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
+"rhs_mag_30Rnd_556x45_M855A1_Stanag",
