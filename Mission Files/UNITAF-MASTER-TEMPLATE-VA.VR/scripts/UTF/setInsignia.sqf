@@ -22,6 +22,7 @@ switch (_prefix) do {
     // Enlisted Ranks
     case "Rec":    { [player, "insignia45"] call BIS_fnc_setUnitInsignia; };
 	case "Pvt":    { [player, "insignia45"] call BIS_fnc_setUnitInsignia; };
+	case "PFC":    { [player, "insignia46"] call BIS_fnc_setUnitInsignia; };
     case "Cpl":    { [player, "insignia47"] call BIS_fnc_setUnitInsignia; };
     case "Spc":    { [player, "insignia48"] call BIS_fnc_setUnitInsignia; };
     case "Sgt":    { [player, "insignia49"] call BIS_fnc_setUnitInsignia; };
