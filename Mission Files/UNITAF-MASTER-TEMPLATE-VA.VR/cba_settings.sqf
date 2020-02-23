@@ -172,7 +172,7 @@ ace_medical_gui_openAfterTreatment = true;
 force ace_medical_ivFlowRate = 2;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 1;
-force ace_medical_playerDamageThreshold = 7;
+force ace_medical_playerDamageThreshold = 5;
 force ace_medical_spontaneousWakeUpChance = 0.5;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 20;
 force ace_medical_statemachine_AIUnconsciousness = false;
@@ -431,19 +431,20 @@ acex_volume_showNotification = false;
 // ACRE2
 force acre_sys_core_automaticAntennaDirection = true;
 acre_sys_core_defaultRadioVolume = 0.8;
-force acre_sys_core_fullDuplex = false;
+force acre_sys_core_fullDuplex = true;
 force acre_sys_core_ignoreAntennaDirection = true;
-force acre_sys_core_interference = true;
+force acre_sys_core_interference = false;
 acre_sys_core_postmixGlobalVolume = 1;
 acre_sys_core_premixGlobalVolume = 1;
 force acre_sys_core_revealToAI = 1;
 acre_sys_core_spectatorVolume = 1;
-force acre_sys_core_terrainLoss = 0.90;
+force acre_sys_core_terrainLoss = 0.20;
 force acre_sys_core_ts3ChannelName = "In Operation (ACRE)";
 force acre_sys_core_ts3ChannelPassword = "ACRE";
 force acre_sys_core_ts3ChannelSwitch = true;
 force acre_sys_core_unmuteClients = true;
-force acre_sys_signal_signalModel = 1;
+force acre_sys_signal_signalModel = 2;
+
 
 // ACRE2 UI
 acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];

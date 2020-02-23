@@ -962,6 +962,38 @@ class UTF_B {
 	};
 };
 
+class UTF_MARFOR_HELOPILOT {
+	displayName = "Rotary Aircrew (General)";
+	//icon = "null";
+	role = "MARFOR";
+
+	uniformClass = "rhs_uniform_FROG01_d";
+	backpack = "";
+	
+		weapons[] = {
+		"rhs_weap_m4_carryhandle",
+		"rhsusf_weap_glock17g4"
+	};
+	
+		linkedItems[] = {
+		"rhsusf_spc_crewman",
+		"rhsusf_hgu56p",
+		"ItemCompass",
+		"ItemWatch",
+		"rhs_googles_black",
+		"ItemMap",
+		"ItemGPS",
+		"ACE_NVG_Wide"
+	};
+	
+	items[] = {
+		"ACRE_PRC343",
+		"ACRE_PRC152",
+		"ToolKit",
+
+	};
+};
+
 class UTF_PH1 {
 	displayName = "Placeholder";
 	//icon = "null";

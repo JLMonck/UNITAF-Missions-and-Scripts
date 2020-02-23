@@ -39,7 +39,7 @@
 [west,"UTF_B"] call BIS_fnc_addRespawnInventory;
 
 // MARFOR ROLES
-[west,"UTF_PH1"] call BIS_fnc_addRespawnInventory;
+[west,"UTF_MARFOR_HELOPILOT"] call BIS_fnc_addRespawnInventory;
 
 // JSOTF ROLES
 [west,"UTF_PH2"] call BIS_fnc_addRespawnInventory;
