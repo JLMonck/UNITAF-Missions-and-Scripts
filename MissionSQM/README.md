@@ -1,3 +1,2 @@
-# README #
-### MissionSQM ###
-Mirror directory for packaged PBO files
+| Mirror directory for packaged PBO files
+> Version should match latest version.md

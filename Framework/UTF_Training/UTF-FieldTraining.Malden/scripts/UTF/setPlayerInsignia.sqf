@@ -33,8 +33,8 @@ switch (_prefix) do {
     // Officer Ranks
     case "2Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; };
     case "1Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; };
-    case "Capt":   { [player, "insignia208"] call BIS_fnc_setUnitInsignia; };
-    case "Maj":    { [player, "insignia209"] call BIS_fnc_setUnitInsignia; };
+    case "Capt": { [player, "insignia208"] call BIS_fnc_setUnitInsignia; };
+    case "Maj":  { [player, "insignia209"] call BIS_fnc_setUnitInsignia; };
     // Default/Invalid Prefix
     default {
         [player, "insignia45"] call BIS_fnc_setUnitInsignia;
