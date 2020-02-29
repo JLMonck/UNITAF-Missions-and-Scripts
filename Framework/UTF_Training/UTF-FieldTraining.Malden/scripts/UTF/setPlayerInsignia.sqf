@@ -45,7 +45,9 @@ switch (_prefix) do {
     };
 };
 
-// Give Medic Patch
+// Give Medic Patch - Not Enabled
+/*
 if ([player] call ace_common_fnc_isMedic) then {
     [player, "insignia1"] call BIS_fnc_setUnitInsignia;
 };
+*/
