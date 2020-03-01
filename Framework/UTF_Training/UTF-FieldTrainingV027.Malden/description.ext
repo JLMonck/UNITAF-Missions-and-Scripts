@@ -30,32 +30,6 @@ joinUnassigned      = 0;
 disableChannels[] = { 1, 2, 4, 5 };
 
 
-// RESPAWN & REVIVE //
-/*
-respawn             = "BASE";
-respawnButton       = 1;
-respawnDelay        = 5;
-respawnDialog       = 0;
-respawnOnStart      = 0;
-*/
-
-
-// USER INTERFACE //
-/* Replaced by Ace HUD config
-showHUD[] = {
-    true,   // Scripted HUD
-    true,   // Vehicle and unit info
-    true,   // Vehicle radar
-    true,   // Vehicle compass
-    false,  // Tank direction
-    false,  // Commanding menu
-    false,  // Group info bar
-    false,  // HUD weapon cursors
-    true    // Vehicle display panels
-};
-*/
-
-
 // CORPSE & WRECK MANAGEMENT //
 corpseManagerMode       = 3;
 corpseLimit             = 15;
@@ -75,16 +49,4 @@ enableDebugConsole[] = {"76561198090574933"};
 // COMPONENT CONFIGS //
 class CfgFunctions {
     #include "functions\functions.hpp"
-};
-class CfgSounds
-{
-    /* TEST
-    sounds[] = {};
-    class ambRadio
-    {
-        name = "ambRadio";
-        sound[] = {"\sounds\test.wav", 300, 1};
-        titles[] = {0,""};
-    };
-    */
 };

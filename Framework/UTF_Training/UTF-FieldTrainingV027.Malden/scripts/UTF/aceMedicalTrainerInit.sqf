@@ -21,6 +21,7 @@ medicalTerminal addAction [
 */
 
 [medicalTerminal,3] call BIS_fnc_dataTerminalAnimate;
+medicalTerminal removeAction 0;
 sleep 5;
 
 for "_i" from 1 to 4 do {
@@ -47,5 +48,3 @@ medicalTerminal addAction [
     }
   } forEach allUnits"
 ];
-
-medicalTerminal removeAction 0;
