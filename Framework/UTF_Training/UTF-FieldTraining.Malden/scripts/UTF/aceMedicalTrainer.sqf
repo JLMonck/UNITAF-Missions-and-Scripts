@@ -60,7 +60,7 @@ switch (_this select 3 select 0) do {
   for "_i" from 0 to 25 do {
     [
       pat,
-      100,
+      selectRandom [0.5,0.8,1.0],
       selectRandom ["Head","Body","LeftArm","RightArm","LeftLeg","RightLeg"],
       selectRandom ["stab","bullet","falling"]
     ] call ace_medical_fnc_addDamageToUnit;

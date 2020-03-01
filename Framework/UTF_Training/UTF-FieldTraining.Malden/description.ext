@@ -69,10 +69,7 @@ minPlayerDistance       = 50;
 
 
 // SERVER & ADMINISTRATION //
-/* Work In Progress
-cba_settings_whitelist[] = ["76561198090574933"};
 enableDebugConsole[] = {"76561198090574933"};
-*/
 
 
 // COMPONENT CONFIGS //

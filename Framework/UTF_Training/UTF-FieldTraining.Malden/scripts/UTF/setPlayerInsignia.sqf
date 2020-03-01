@@ -15,6 +15,7 @@ params [
 
 // Find player name & grab prefix
 _name = name player;
+_accessStaff = false;
 _prefix = (_name splitString " ") select 0; 
 
 // Cross ckeck user prefix with avaliable rank prefixes
@@ -31,10 +32,10 @@ switch (_prefix) do {
     case "1stSgt": { [player, "insignia52"] call BIS_fnc_setUnitInsignia; };
     case "MstSgt": { [player, "insignia53"] call BIS_fnc_setUnitInsignia; };
     // Officer Ranks
-    case "2Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; };
-    case "1Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; };
-    case "Capt": { [player, "insignia208"] call BIS_fnc_setUnitInsignia; };
-    case "Maj":  { [player, "insignia209"] call BIS_fnc_setUnitInsignia; };
+    case "2Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; _accessStaff = true};
+    case "1Lt":  { [player, "insignia207"] call BIS_fnc_setUnitInsignia; _accessStaff = true};
+    case "Capt": { [player, "insignia208"] call BIS_fnc_setUnitInsignia; _accessStaff = true};
+    case "Maj":  { [player, "insignia209"] call BIS_fnc_setUnitInsignia; _accessStaff = true};
     // Default/Invalid Prefix
     default {
         [player, "insignia45"] call BIS_fnc_setUnitInsignia;
@@ -44,6 +45,8 @@ switch (_prefix) do {
         ];
     };
 };
+sleep 5;
+[_accessStaff] execVM "scripts\UTF\arsenalAccess.sqf";
 
 // Give Medic Patch - Not Enabled
 /*
