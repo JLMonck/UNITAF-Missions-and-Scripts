@@ -42,11 +42,19 @@ wreckRemovalMaxTime     = 3600;
 minPlayerDistance       = 50;
 
 
-// SERVER & ADMINISTRATION //
-enableDebugConsole[] = {"76561198090574933"};
-
-
 // COMPONENT CONFIGS //
 class CfgFunctions {
     #include "functions\functions.hpp"
 };
+
+class CfgRoles {
+	#include "scripts\UTF\Respawn\Roles.hpp"
+};
+
+class CfgRespawnInventory {
+    #include "scripts\UTF\Respawn\Loadout.hpp"
+};
+
+
+// SERVER & ADMINISTRATION //
+enableDebugConsole[] = {"76561198090574933"};
