@@ -428,65 +428,6 @@ acex_volume_reduction = 3;
 acex_volume_remindIfLowered = false;
 acex_volume_showNotification = false;
 
-// ACRE2
-force acre_sys_core_automaticAntennaDirection = true;
-acre_sys_core_defaultRadioVolume = 0.8;
-force acre_sys_core_fullDuplex = true;
-force acre_sys_core_ignoreAntennaDirection = true;
-force acre_sys_core_interference = false;
-acre_sys_core_postmixGlobalVolume = 1;
-acre_sys_core_premixGlobalVolume = 1;
-force acre_sys_core_revealToAI = 1;
-acre_sys_core_spectatorVolume = 1;
-force acre_sys_core_terrainLoss = 0.20;
-force acre_sys_core_ts3ChannelName = "In Operation (ACRE)";
-force acre_sys_core_ts3ChannelPassword = "ACRE";
-force acre_sys_core_ts3ChannelSwitch = true;
-force acre_sys_core_unmuteClients = true;
-force acre_sys_signal_signalModel = 2;
-
-
-// ACRE2 UI
-acre_sys_list_CycleRadiosColor = [0.66,0.05,1,1];
-acre_sys_list_DefaultPTTColor = [1,0.8,0,1];
-acre_sys_list_HintBackgroundColor = [0,0,0,0.8];
-acre_sys_list_HintTextFont = "RobotoCondensed";
-acre_sys_list_LanguageColor = [1,0.29,0.16,1];
-acre_sys_list_PTT1Color = [1,0.8,0,1];
-acre_sys_list_PTT2Color = [1,0.8,0,1];
-acre_sys_list_PTT3Color = [1,0.8,0,1];
-acre_sys_list_SwitchChannelColor = [0.66,0.05,1,1];
-acre_sys_list_ToggleHeadsetColor = [0.66,0.05,1,1];
-
-// ACRE2 Zeus
-acre_sys_zeus_zeusCanSpectate = true;
-acre_sys_zeus_zeusCommunicateViaCamera = true;
-acre_sys_zeus_zeusDefaultVoiceSource = false;
-
-// Boxloader
-force boxloader_allrepair_height = 5;
-force boxloader_allrepair_load = false;
-force boxloader_allrepair_push = 10000;
-force boxloader_allrepair_weight = 10000;
-force boxloader_allrepair_work = false;
-force boxloader_fort_allow_floating = true;
-boxloader_fort_snap_editor = true;
-force boxloader_hidecargo_enabled = false;
-force boxloader_maxload_enabled = false;
-force boxloader_maxload_lift = 50;
-force boxloader_maxload_minpush = 10;
-force boxloader_maxload_overhead = 30;
-force boxloader_maxload_push = 200;
-force boxloader_maxunload_enabled = false;
-force boxloader_preciseunload_enabled = false;
-force boxloader_push_enabled = true;
-force boxloader_retrofit_enabled = false;
-force boxloader_tractor_bulldoze = true;
-boxloader_tractor_bulldoze_fence = false;
-boxloader_tractor_bulldoze_hide = false;
-boxloader_tractor_bulldoze_ruins = false;
-boxloader_tractor_bulldoze_wall = false;
-
 // CBA UI
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
@@ -515,20 +456,6 @@ force grad_trenches_functions_smallEnvelopeDigTime = 30;
 force grad_trenches_functions_stopBuildingAtFatigueMax = false;
 force grad_trenches_functions_vehicleEnvelopeDigTime = 120;
 
-// PPS client settings
-force PPS_AllowSendingData = true;
-force PPS_ClientLogging = true;
-force PPS_SendingAddonData = true;
-force PPS_SendingGeneralData = true;
-force PPS_SendingInfantryData = true;
-force PPS_SendingVehicleData = true;
-force PPS_SummerTime = true;
-force PPS_TimeZone = 2;
-force PPS_UpdateInterval = 15;
-
-// PPS server settings
-PPS_ServerLogging = false;
-
 // STUI Settings
 force STGI_Settings_Enabled = false;
 force STGI_Settings_UnconsciousFadeEnabled = true;
@@ -540,28 +467,6 @@ force STHud_Settings_RemoveDeadViaProximity = false;
 STHud_Settings_SquadBar = false;
 STHud_Settings_TextShadow = 1;
 force STHud_Settings_UnconsciousFadeEnabled = true;
-
-// Simplex Support Services
-force SSS_setting_adminFullAccess = true;
-force SSS_setting_adminLimitSide = false;
-force SSS_setting_cleanupCrew = true;
-force SSS_setting_deleteVehicleOnEntityRemoval = false;
-force SSS_setting_directActionRequirement = true;
-force SSS_setting_GiveUAVTerminal = true;
-force SSS_setting_logisticsAirdropMaxAmount = "5";
-force SSS_setting_milsimModeArtillery = true;
-force SSS_setting_milsimModeCAS = true;
-force SSS_setting_milsimModeLogistics = true;
-force SSS_setting_milsimModeTransport = true;
-force SSS_setting_removeSupportOnVehicleDeletion = true;
-force SSS_setting_resetVehicleOnRTB = true;
-force SSS_setting_restoreCrewOnRTB = true;
-force SSS_setting_slingLoadSearchRadius = 100;
-force SSS_setting_slingLoadWhitelist = "";
-force SSS_setting_specialItems = "";
-force SSS_setting_specialItemsLimitSide = true;
-force SSS_setting_specialItemsLogic = true;
-force SSS_setting_useChatNotifications = true;
 
 // Zeus Enhanced
 force zen_camera_adaptiveSpeed = true;

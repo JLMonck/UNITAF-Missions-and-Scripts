@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=191;
+		nextID=221;
 	};
 	class Camera
 	{
-		pos[]={9783.0342,43.81995,3895.8481};
-		dir[]={-0.90124524,-0.3280718,0.28345236};
-		up[]={-0.31299722,0.94464725,0.098440543};
-		aside[]={0.30005461,6.0419552e-007,0.95402807};
+		pos[]={9717.5479,80.616608,3904.1663};
+		dir[]={0.79908001,-0.57468915,0.17727996};
+		up[]={0.56105518,0.81837851,0.12447263};
+		aside[]={0.21660972,1.2906967e-006,-0.97637129};
 	};
 };
 binarizationWanted=0;
@@ -3017,7 +3017,7 @@ class Mission
 					};
 					id=165;
 					type="rhsusf_M1083A1P2_B_D_fmtv_usarmy";
-					atlOffset=0.23300171;
+					atlOffset=0.2328949;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -6702,7 +6702,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9737.6826,38.891438,3956.2388};
-								angles[]={-0,1.4609689,0};
+								angles[]={0,1.4609689,0};
 							};
 							side="West";
 							flags=6;
@@ -22051,7 +22051,7 @@ class Mission
 			flags=1;
 			id=2577;
 			type="ModuleCivilianPresenceSafeSpot_F";
-			atlOffset=4.9865084;
+			atlOffset=5.5040002;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -26662,7 +26662,6 @@ class Mission
 					};
 					id=3016;
 					type="Land_CampingChair_V2_F";
-					atlOffset=0.24175644;
 				};
 				class Item140
 				{
@@ -26681,7 +26680,6 @@ class Mission
 					};
 					id=3015;
 					type="Land_CampingTable_F";
-					atlOffset=0.18909836;
 				};
 				class Item141
 				{
@@ -30398,13 +30396,14 @@ class Mission
 						angles[]={6.2781067,0.18301523,6.2575464};
 					};
 					side="Empty";
+					flags=4;
 					class Attributes
 					{
 						dynamicSimulation=1;
 					};
 					id=2755;
 					type="C_Offroad_01_repair_F";
-					atlOffset=0.50138474;
+					atlOffset=1.5258789e-005;
 					class CustomAttributes
 					{
 						class Attribute0

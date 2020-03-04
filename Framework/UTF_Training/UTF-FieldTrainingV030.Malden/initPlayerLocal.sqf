@@ -8,8 +8,7 @@
 
 	INDEX
 	|1| Assign Unit Rank Patches
-	|2| Assign Arsenal Access
-	|3| Start Slides
+	|2| Start Slides
 
 */
 //////////////////////////////
@@ -24,8 +23,5 @@ removeGoggles player;
 // |1| ASSIGN UNIT RANK PATCHES
 player execVM "scripts\UTF\setPlayerInsignia.sqf";
 
-// |2| ASSIGN ARSENAL ACCESS
-// - Moved to setPlayerInsignia.sqf for now.
-
-// |3| START SLIDES
+// |2| START SLIDES
 player execVM "scripts\UTF\slidesInit.sqf";
