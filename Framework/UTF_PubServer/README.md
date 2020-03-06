@@ -1,1 +1,1 @@
-PLACEHOLDER - Mission Goes Here
+PLACEHOLDER
