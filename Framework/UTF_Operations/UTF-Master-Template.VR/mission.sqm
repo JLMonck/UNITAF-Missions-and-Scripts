@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={2573.4341,8.7083292,4943.2046};
-		dir[]={0.024427215,-0.31827614,-0.94778526};
-		up[]={0.0082013281,0.94795245,-0.31825215};
-		aside[]={-0.99976325,-3.3763354e-007,-0.025766803};
+		pos[]={2577.7644,8.7083292,4936.769};
+		dir[]={0.3020879,-0.41471016,-0.85846001};
+		up[]={0.13768114,0.90990299,-0.3912591};
+		aside[]={-0.94338983,-3.4508412e-007,-0.331974};
 	};
 };
 binarizationWanted=0;
@@ -9411,7 +9411,7 @@ class Mission
 										};
 										class value
 										{
-											items=196;
+											items=199;
 											class Item0
 											{
 												class data
@@ -12154,6 +12154,48 @@ class Mission
 														};
 													};
 													value="ACE_NVG_Wide";
+												};
+											};
+											class Item196
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="TFAR_rf7800str";
+												};
+											};
+											class Item197
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="TFAR_anprc152";
+												};
+											};
+											class Item198
+											{
+												class data
+												{
+													class type
+													{
+														type[]=
+														{
+															"STRING"
+														};
+													};
+													value="TFAR_anprc148jem";
 												};
 											};
 										};
