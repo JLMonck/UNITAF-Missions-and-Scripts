@@ -16,14 +16,12 @@ class UTF_Commander {
 		"G_Aviator",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap",
 		"ItemGPS"
 	};
 	
 	items[] = {
-		"ACE_MRE_BeefStew",
-		"ACE_Canteen",
-		"ACRE_PRC152",
 		"ACE_EarPlugs"
 	};
 };
@@ -48,6 +46,7 @@ class UTF_OfficerOps {
 		"ItemCompass",
 		"ItemWatch",
 		"ItemMap",
+		"ItemRadio",
 		"ItemGPS"
 	};
 	
@@ -57,11 +56,7 @@ class UTF_OfficerOps {
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
-		"ACE_MRE_SteakVegetables",
 		"ACE_Flashlight_XL50",
-		"ACE_Canteen",
-		"ACRE_PRC343",
-		"ACRE_PRC152",
 		"ACE_EarPlugs"
 	};
 };
@@ -86,6 +81,7 @@ class UTF_OfficerInt {
 		"ItemCompass",
 		"ItemWatch",
 		"ItemMap",
+		"ItemRadio",
 		"ItemGPS"
 	};
 	
@@ -95,12 +91,8 @@ class UTF_OfficerInt {
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
-		"ACE_MRE_SteakVegetables",
 		"ACE_Flashlight_XL50",
 		"ACE_Canteen",
-		"ACRE_PRC117F",
-		"ACRE_PRC152",
-		"ACRE_PRC152",
 		"ACE_EarPlugs"
 	};
 };
@@ -125,6 +117,7 @@ class UTF_OfficerLog {
 		"ItemCompass",
 		"ItemWatch",
 		"ItemMap",
+		"ItemRadio",
 		"ItemGPS"
 	};
 	
@@ -136,14 +129,11 @@ class UTF_OfficerLog {
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
 		"ACE_fieldDressing",
-		"ACE_MRE_SteakVegetables",
 		"ACE_Flashlight_XL50",
 		"ACE_personalAidKit",
 		"ACE_surgicalKit",
 		"ACE_Fortify",
 		"ACE_Canteen",
-		"ACRE_PRC152",
-		"ACRE_PRC117F",
 		"ACE_EarPlugs",
 		"ToolKit",
 	};
@@ -160,12 +150,12 @@ class UTF_UNARMED {
 		"rhssaf_beret_green",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343"
 	};
 };
 class UTF_R {
@@ -187,6 +177,7 @@ class UTF_R {
 		"rhsusf_acc_compm4",
 		"rhsusf_acc_grip2",
 		"ItemCompass",
+		"ItemRadio",
 		"ItemWatch",
 		"ItemMap"
 	};
@@ -194,7 +185,6 @@ class UTF_R {
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343"
 	};
 };
 
@@ -219,6 +209,7 @@ class UTF_PTL {
 		"rhsusf_acc_ACOG3_USMC",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap",
 		"ItemGPS"
 	};
@@ -226,8 +217,6 @@ class UTF_PTL {
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC152",
-		"ACRE_PRC148",
 	};
 };
 
@@ -252,6 +241,7 @@ class UTF_SQL {
 		"rhsusf_acc_ACOG3_USMC",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap",
 		"ItemGPS"
 	};
@@ -259,8 +249,6 @@ class UTF_SQL {
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC148",
-		"ACRE_PRC152"
 	};
 };
 
@@ -286,14 +274,13 @@ class UTF_FTL {
 		"ItemCompass",
 		"ItemWatch",
 		"ItemMap",
+		"ItemRadio",
 		"ItemGPS"
 	};
 
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -319,13 +306,12 @@ class UTF_AUR1 {
 		"rhsusf_acc_grip4_bipod",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -350,13 +336,12 @@ class UTF_AUR2 {
 		"rhsusf_acc_grip4_bipod",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -380,14 +365,13 @@ class UTF_AURA {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -412,14 +396,13 @@ class UTF_LM {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148",
 		"rhsusf_mag_15Rnd_9x19_JHP",
 		"rhsusf_mag_15Rnd_9x19_JHP",
 		"rhsusf_mag_15Rnd_9x19_JHP",
@@ -518,6 +501,7 @@ class UTF_GRN1 {
 		"rhsusf_acc_eotech_552",
 		"rhsusf_acc_grip2",
 		"ItemCompass",
+		"ItemRadio",
 		"ItemWatch",
 		"ItemMap"
 	};
@@ -525,8 +509,6 @@ class UTF_GRN1 {
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -550,14 +532,13 @@ class UTF_GRN2 {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -581,14 +562,13 @@ class UTF_GRN3 {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -612,14 +592,13 @@ class UTF_ENG {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148",
 		"ACE_Clacker",
 		"ACE_DefusalKit"
 	};
@@ -645,14 +624,13 @@ class UTF_SM {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148",
 		"rhsusf_mag_15Rnd_9x19_JHP",
 		"rhsusf_mag_15Rnd_9x19_JHP",
 		"rhsusf_mag_15Rnd_9x19_JHP",
@@ -764,14 +742,13 @@ class UTF_LAT {
 		"rhs_acc_at4_handler",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -797,14 +774,13 @@ class UTF_MAT {
 		"rhs_optic_maaws",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -829,14 +805,13 @@ class UTF_HAT {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -860,14 +835,13 @@ class UTF_MG {
 		"rhsusf_acc_ELCAN",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -891,14 +865,13 @@ class UTF_MGA {
 		"rhsusf_acc_grip2",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
 		#include "Mags.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -924,13 +897,12 @@ class UTF_DM {
 		"rhsusf_acc_harris_bipod",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -952,13 +924,12 @@ class UTF_B {
 		"rhsusf_ach_helmet_headset_ess_ocp",
 		"ItemCompass",
 		"ItemWatch",
+		"ItemRadio",
 		"ItemMap"
 	};
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343",
-		"ACRE_PRC148"
 	};
 };
 
@@ -983,13 +954,12 @@ class UTF_MARFOR_HELOPILOT {
 		"rhs_googles_black",
 		"ItemMap",
 		"ItemGPS",
+		"ItemRadio",
 		"ACE_NVG_Wide"
 	};
 	
 	items[] = {
-		"ACRE_PRC343",
-		"ACRE_PRC152",
-		"ToolKit",
+		"ToolKit"
 
 	};
 };
@@ -1004,7 +974,6 @@ class UTF_PH1 {
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343"
 	};
 };
 
@@ -1017,7 +986,6 @@ class UTF_PH2 {
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC343"
 	};
 };
 
@@ -1048,6 +1016,5 @@ class UTF_RP_Pilot {
 	
 	items[] = {
 		#include "Uniform.hpp"
-		"ACRE_PRC152"
 	};
 };

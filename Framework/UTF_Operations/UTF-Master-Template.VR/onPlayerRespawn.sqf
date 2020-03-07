@@ -83,7 +83,5 @@ if (_tierMedical == _tierEngineer) then {
 	hint format ["Medical|%1 Engineer|%2",_tierMedical,_tierEngineer];
 };
 
-/* |2| ASSIGN UNIT RANK PATCHES
-
-	Work In Progress
-*/
+// |2| ASSIGN UNIT RANK PATCHES
+player execVM "scripts\UTF\setPlayerInsignia.sqf";
