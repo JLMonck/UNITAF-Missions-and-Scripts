@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=3546;
+		nextID=3548;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=241;
+		nextID=251;
 	};
 	class Camera
 	{
-		pos[]={9751.4912,64.432571,3931.123};
-		dir[]={-0.73147142,-0.39150551,-0.55838948};
-		up[]={-0.31121179,0.92016619,-0.23757099};
-		aside[]={-0.60681975,2.0489097e-007,0.79491943};
+		pos[]={9731.9766,57.136967,3930.875};
+		dir[]={0.6105032,-0.47927853,-0.63068694};
+		up[]={0.33336449,0.87764663,-0.3443855};
+		aside[]={-0.71858221,4.2933971e-007,-0.69558448};
 	};
 };
 binarizationWanted=0;
@@ -4829,7 +4829,7 @@ class Mission
 					class Attributes
 					{
 						init="call{this addAction [ " \n """TAKE 3x 30RND STANAG""," \n "{params [""_target"", ""_caller""];" \n "for ""_i"" from 1 to 3 do {" \n "_caller addItem ""rhs_mag_30Rnd_556x45_M855A1_Stanag"";" \n "sleep 0.25;" \n "hint format [""%1 STANAG Added"",_i]" \n "};" \n "}, " \n "[], " \n "1.5, " \n "true, " \n "true, " \n """"", " \n """true"", " \n "5 " \n "];" \n "this addAction [ " \n """TAKE AN/PRC 152""," \n "{params [""_target"", ""_caller""];" \n "_caller addItem ""TFAR_anprc152"";" \n "hint ""AN/PRC 152 Added"";" \n "}, " \n "[], " \n "1.5, " \n "true, " \n "true, " \n """"", " \n """true"", " \n "5 " \n "];}";
-						name="arsenal";
+						name="arsenal_1";
 						disableSimulation=1;
 					};
 					id=2006;
@@ -6539,7 +6539,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9753.249,38.882271,3963.5911};
-								angles[]={0,2.5570469,0};
+								angles[]={6.282495,2.5570469,0};
 							};
 							side="West";
 							flags=7;
@@ -6635,7 +6635,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9753.249,38.882271,3963.5911};
-								angles[]={0,2.5570469,0};
+								angles[]={6.282495,2.5570469,0};
 							};
 							side="West";
 							flags=5;
@@ -7183,6 +7183,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman@GROUP A";
 								isPlayable=1;
 								class Inventory
@@ -7323,6 +7324,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -7463,6 +7465,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -7604,6 +7607,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -7745,6 +7749,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -7886,6 +7891,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8027,6 +8033,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8168,6 +8175,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8346,6 +8354,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman@GROUP B";
 								isPlayable=1;
 								class Inventory
@@ -8486,6 +8495,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8626,6 +8636,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8767,6 +8778,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -8907,6 +8919,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9048,6 +9061,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9189,6 +9203,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9330,6 +9345,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9508,6 +9524,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman@GROUP C";
 								isPlayable=1;
 								class Inventory
@@ -9648,6 +9665,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9788,6 +9806,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -9928,6 +9947,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -10068,6 +10088,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -10208,6 +10229,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -10348,6 +10370,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -10488,6 +10511,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								description="Rifleman";
 								isPlayable=1;
 								class Inventory
@@ -10652,7 +10676,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={9753.249,41.965946,3963.5386};
-						angles[]={0,2.5570469,0};
+						angles[]={6.282495,2.5570469,0};
 					};
 					side="West";
 					flags=6;
@@ -12824,7 +12848,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={9753.249,38.882271,3963.5911};
-								angles[]={0,2.5570469,0};
+								angles[]={6.282495,2.5570469,0};
 							};
 							side="West";
 							flags=7;
@@ -14152,6 +14176,7 @@ class Mission
 							flags=7;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								name="co";
 								description="Task Force CO@OFFICERS";
 								isPlayer=1;
@@ -14317,6 +14342,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								name="xo";
 								description="Task Force XO";
 								isPlayable=1;
@@ -14481,6 +14507,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								name="insA";
 								description="Instructor";
 								isPlayable=1;
@@ -14679,6 +14706,7 @@ class Mission
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								name="insB";
 								description="Instructor";
 								isPlayable=1;
@@ -14870,13 +14898,14 @@ class Mission
 							dataType="Object";
 							class PositionInfo
 							{
-								position[]={9762.5234,38.891438,3919.0532};
+								position[]={9762.5234,38.891438,3919.053};
 								angles[]={0,1.5707964,0};
 							};
 							side="West";
 							flags=5;
 							class Attributes
 							{
+								init="call{this disableAI ""MOVE"";}";
 								name="insC";
 								description="Instructor";
 								isPlayable=1;
@@ -19839,7 +19868,6 @@ class Mission
 		{
 			dataType="Layer";
 			name="Rifle Range";
-			state=1;
 			class Entities
 			{
 				items=165;
@@ -19933,7 +19961,6 @@ class Mission
 						behaviour="SAFE";
 					};
 					id=3022;
-					atlOffset=96.5;
 				};
 				class Item1
 				{
@@ -20043,7 +20070,6 @@ class Mission
 						behaviour="SAFE";
 					};
 					id=3057;
-					atlOffset=96.5;
 				};
 				class Item2
 				{
@@ -22877,14 +22903,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={9522.4189,36.087002,4240.3726};
-						angles[]={0,2.4316008,0};
+						position[]={9522.4189,36.087002,4240.373};
+						angles[]={0,2.4315929,0};
 					};
 					side="Empty";
 					class Attributes
 					{
 						init="call{this addAction [ " \n """TAKE 3x 30RND STANAG""," \n "{params [""_target"", ""_caller""];" \n "for ""_i"" from 1 to 3 do {" \n "_caller addItem ""rhs_mag_30Rnd_556x45_M855A1_Stanag"";" \n "sleep 0.25;" \n "hint format [""%1 STANAG Added"",_i]" \n "};" \n "}, " \n "[], " \n "1.5, " \n "true, " \n "true, " \n """"", " \n """true"", " \n "5 " \n "];" \n "this addAction [ " \n """TAKE AN/PRC 152""," \n "{params [""_target"", ""_caller""];" \n "_caller addItem ""TFAR_anprc152"";" \n "hint ""AN/PRC 152 Added"";" \n "}, " \n "[], " \n "1.5, " \n "true, " \n "true, " \n """"", " \n """true"", " \n "5 " \n "];}";
-						name="arsenal_1";
+						name="arsenal_2";
 						disableSimulation=1;
 					};
 					id=3059;
@@ -24105,7 +24131,7 @@ class Mission
 				};
 			};
 			id=3273;
-			atlOffset=0.79615402;
+			atlOffset=0.23468399;
 		};
 		class Item24
 		{
