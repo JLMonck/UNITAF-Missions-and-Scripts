@@ -132,7 +132,7 @@ force ace_magazinerepack_timePerMagazine = 2;
 // ACE Map
 force ace_map_BFT_Enabled = true;
 force ace_map_BFT_HideAiGroups = true;
-force ace_map_BFT_Interval = 1;
+force ace_map_BFT_Interval = 30;
 force ace_map_BFT_ShowPlayerNames = false;
 force ace_map_DefaultChannel = -1;
 force ace_map_mapGlow = true;
@@ -172,7 +172,7 @@ ace_medical_gui_openAfterTreatment = true;
 force ace_medical_ivFlowRate = 2;
 force ace_medical_limping = 1;
 force ace_medical_painCoefficient = 1;
-force ace_medical_playerDamageThreshold = 1;
+force ace_medical_playerDamageThreshold = 3;
 force ace_medical_spontaneousWakeUpChance = 0.5;
 force ace_medical_spontaneousWakeUpEpinephrineBoost = 20;
 force ace_medical_statemachine_AIUnconsciousness = false;
@@ -201,7 +201,7 @@ force ace_medical_treatment_maxLitterObjects = 500;
 force ace_medical_treatment_medicEpinephrine = 1;
 force ace_medical_treatment_medicPAK = 2;
 force ace_medical_treatment_medicSurgicalKit = 1;
-force ace_medical_treatment_timeCoefficientPAK = 0.3;
+force ace_medical_treatment_timeCoefficientPAK = 1;
 force ace_medical_treatment_woundReopening = false;
 
 // ACE Mk6 Mortar
@@ -218,7 +218,7 @@ force ace_nametags_nametagColorMain = [1,1,1,1];
 force ace_nametags_nametagColorRed = [1,0.2,0.2,0.904635];
 force ace_nametags_nametagColorYellow = [1,1,0.199049,0.7041];
 force ace_nametags_playerNamesMaxAlpha = 0.8;
-force ace_nametags_playerNamesViewDistance = 5;
+force ace_nametags_playerNamesViewDistance = 1;
 force ace_nametags_showCursorTagForVehicles = false;
 force ace_nametags_showNamesForAI = false;
 force ace_nametags_showPlayerNames = 1;
