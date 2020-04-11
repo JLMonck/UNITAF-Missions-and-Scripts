@@ -1,0 +1,91 @@
+/*/ DESCRIPTION.EXT
+
+Author:         (UTF) TEMPLAR
+Outline:        The Description.ext is used to set the overall mission attributes
+Documentation:  https://community.bistudio.com/wiki/Description.ext /*/
+
+
+// MISSION INFORMATION //
+
+author          = "United Task Force";
+onLoadName      = "MISSION NAME HERE";
+onLoadMission   = "";
+loadScreen      = "img\AO-CoverArt.jpg";
+class Header
+{
+    gameType    = Coop;
+    minPlayers  = 1;
+    maxPlayers  = 64;
+};
+
+
+//  MISSION SETTINGS //
+
+saving              = 0;
+aiKills             = 0;
+briefing            = 1;
+debriefing          = 0;
+disabledAI          = 1;
+joinUnassigned      = 0;
+
+
+// RESPAWN & REVIVE //
+respawn             = "BASE";
+respawnButton       = 0;
+respawnDelay        = 3;
+respawnDialog       = 0;
+respawnOnStart      = 1;
+
+
+
+// USER INTERFACE //
+/* Replaced by Ace HUD config
+showHUD[] = {
+    true,   // Scripted HUD
+    true,   // Vehicle and unit info
+    true,   // Vehicle radar
+    true,   // Vehicle compass
+    false,  // Tank direction
+    false,  // Commanding menu
+    false,  // Group info bar
+    false,  // HUD weapon cursors
+    true    // Vehicle display panels
+};
+*/
+
+
+// CORPSE & WRECK MANAGEMENT //
+
+corpseManagerMode       = 3;
+corpseLimit             = 15;
+corpseRemovalMinTime    = 60;
+corpseRemovalMaxTime    = 1800;
+wreckManagerMode        = 1;
+wreckLimit              = 5;
+wreckRemovalMinTime     = 60;
+wreckRemovalMaxTime     = 3600;
+minPlayerDistance       = 50;
+
+
+// PDB Settings for UTFN
+
+class CfgRemoteExec
+{
+        class Commands
+        {
+			mode = 2;
+			jip = 1;
+			
+			class getVariable {allowedTargets = 0;};
+			class setVariable {allowedTargets = 0;};
+        };
+        class Functions
+        {
+			mode = 2;
+			jip = 1;                                       //no functions can use jip
+
+			class BIS_fnc_MP {allowedTargets = 0;};   //execute only on clients, server execution denied
+			class BIS_fnc_execVM {allowedTargets = 0;}; 
+			class ace_common_fnc_setAllGear {allowedTargets = 0;}; 
+        };
+};
