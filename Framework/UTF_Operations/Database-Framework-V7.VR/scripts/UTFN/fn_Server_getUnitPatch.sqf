@@ -2,7 +2,7 @@
 *	From Database to Arma 3 Unit
 */
 
-_OperationID = 125;
+_OperationID = missionName;
 params ["_player"];
 waitUntil {isPlayer _Player};
 sleep 1;
